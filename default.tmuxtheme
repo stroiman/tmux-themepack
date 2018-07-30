@@ -17,13 +17,13 @@ set -g status-fg black
 set -g status-left-bg green
 set -g status-left-fg black
 set -g status-left-length 10
-set -g status-left "[#S]"
+set -go status-left "[#S]"
 
 # Right side of status bar
 set -g status-right-bg green
 set -g status-right-fg black
 set -g status-right-length 40
-set -g status-right "\"#H\" %H:%M %d-%b-%y"
+set -go status-right "\"#H\" %H:%M %d-%b-%y"
 
 # Window status
 set -g window-status-format "#I:#W#F"
